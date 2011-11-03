@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /fonts/eiad
+# catalog-date 2008-12-05 21:50:47 +0100
+# catalog-license noinfo
+# catalog-version undef
 Name:		texlive-eiad
 Version:	20081205
 Release:	1
@@ -119,6 +125,7 @@ LaTeX.
 %doc %{_texmfdistdir}/doc/fonts/eiad/micheal.tex
 %doc %{_texmfdistdir}/doc/fonts/eiad/recreat.pdf
 %doc %{_texmfdistdir}/doc/fonts/eiad/recreat.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -129,3 +136,5 @@ LaTeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
