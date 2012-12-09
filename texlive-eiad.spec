@@ -126,3 +126,17 @@ LaTeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20081205-2
++ Revision: 751369
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20081205-1
++ Revision: 718314
+- texlive-eiad
+- texlive-eiad
+- texlive-eiad
+- texlive-eiad
+
