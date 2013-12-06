@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-eiad
 Version:	20081205
-Release:	4
+Release:	5
 Summary:	Traditional style Irish fonts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/eiad
