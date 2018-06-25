@@ -5,7 +5,7 @@
 # catalog-license noinfo
 # catalog-version undef
 Name:		texlive-eiad
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	Traditional style Irish fonts
 Group:		Publishing
