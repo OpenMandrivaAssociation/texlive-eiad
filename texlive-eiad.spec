@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Traditional style Irish fonts
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/eiad
+URL:		https://www.ctan.org/tex-archive/fonts/eiad
 License:	NOINFO
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/eiad.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/eiad.doc.r%{version}.tar.xz
